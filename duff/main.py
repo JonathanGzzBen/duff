@@ -21,7 +21,12 @@ class DuffClient(discord.Client):
         for anime in animes_season(limit=5):
             embed_message = discord.Embed()
             embed_message.title = anime.title
-            embed_message = embed_message.add_field(name="Score", value=anime.score).add_field(name="Episodes", value=anime.episodes).add_field(name="Studio", value=anime.studio).set_image(url=anime.image_url)
+            embed_message = (embed_message
+                .add_field(name="Score", value=anime.score)
+                .add_field(name="Episodes", value=anime.episodes)
+                .add_field(name="Studio", value=anime.studio)
+                .set_image(url=anime.image_url))
+
             await message.channel.send(embed=embed_message)
     
 
