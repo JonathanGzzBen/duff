@@ -1,0 +1,12 @@
+{
+  "name": "duff",
+  "version": "1.0.0",
+  "description": "Duff is a Discord Bot written in TypeScript that has the features I wanted to add to my personal servers.",
+  "main": "index.js",
+  "repository": "https://github.com/JonathanGzzBen/duff.git",
+  "author": "JonathanGzzBen <jonathangzzben@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}
