@@ -4,4 +4,4 @@ Duff is a Discord Bot written in TypeScript that has the features I wanted to ad
 ## Features
 - Storing nuclear codes for that **n** site (you know, that site)
 - Greeting new server members
-- Sending a "shut up" message for specified users when they send too many messages
+- Use MyAnimeListAPI to display top airing animes.
